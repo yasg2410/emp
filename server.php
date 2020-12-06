@@ -1,5 +1,5 @@
 <?php
-$db=mysqli_connect('localhost','root',"","employeereg");
+$db=mysqli_connect('prac3.cfwnf3gx9gtk.us-east-1.rds.amazonaws.com','admin',"12345678","employeereg");
 if(isset($_POST['reg_user']))
 {
 
